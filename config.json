@@ -1,0 +1,52 @@
+{
+    "working_directory": "./active",
+    "discord_token": "ODQ5Mjg0OTczNzczMzI0MzMw.G0BTFy.ffFOlaqOW27TD_u5TxNTMbRIiVACdQcdGcTcnA",
+    "discord_tagline": "fortnite burger gang",
+    "message_search_count": 15,
+    "command_chain_limit": 3,
+    "max_concat_count": 3,
+    
+    "unspecified_default_timeout": 5,
+    "default_guild_timeouts": {
+        "destroy": 10,
+        "concat": 12,
+        "download": 15,
+        "help": 1
+    },
+    "default_user_timeouts": {
+        "destroy": 15,
+        "concat": 20,
+        "download": 30,
+        "help": 3
+    },
+    "custom_guild_timeouts": {
+        // "some guild id here": {
+        //     "default": 0
+        // }
+    },
+    "custom_user_timeouts": {
+        // "some user id here": {
+            // "ghost": true, //has no effect on command timeouts
+            // "max_chain": 50
+        // }
+    },
+    "donor_guild_id": "923620715457048596",
+    "donor_guild_check_seconds": 600,
+    "donor_teir_roles": {
+        "934847729472000011": {
+            "user": {
+                "max_chain": 5,
+                "timeout_multiplier": 0.5
+            },
+            "guild": {
+                "max_chain": 4,
+                "timeout_multiplier": 0.75
+            }
+            
+        }
+    },
+    "response_messages": [
+        "kill yourself"
+    ],
+    "meta_prefixes": ["destroy"]
+}
